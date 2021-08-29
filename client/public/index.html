@@ -17,7 +17,27 @@
 </head>
 
 <body>
-  <h1>Hello</h1>
+  <div class="container">
+    <form id="form">
+      <div class="mb-3">
+        <label for="search" class="form-label">Tìm kiếm</label>
+        <input type="text" class="form-control" id="search" name="keyword" aria-describedby="search">
+      </div>
+      <button type="submit" name="submit" class="btn btn-primary">Tìm kiếm</button>
+    </form>
+
+    <div class="row">
+      <div class="col-md-8">
+        <iframe width="720" height="500" src="https://www.youtube.com/embed/FHo7_00Wdv8?controls=0"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="col-md-4">
+        <div id="playlist"></div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
